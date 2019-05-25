@@ -1,0 +1,11 @@
+encoding: utf-8
+exclude: ["Gemfile", "Gemfile.lock", "CNAME", "LICENSE", "README.md"]
+sass:
+  sass_dir: _sass
+  style: compressed
+
+title: "link.x39.dev"
+url: "https://link.x39.dev"
+
+author:
+  name: "ress"
