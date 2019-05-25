@@ -1,15 +1,35 @@
-- name: favorites
+- name: Favorites
   tag: favorite
   icon: star
-- name: search
-  tag: search
-  icon: search
-- name: shopping
-  tag: shopping
-  icon: shopping-basket
-- name: music
+
+- name: Dev
+  tag: dev
+  icon: terminal
+
+- name: Book
+  tag: book
+  icon: book
+
+- name: Image
+  tag: image
+  icon: image
+
+- name: Video
+  tag: video
+  icon: video
+
+- name: Music
   tag: music
   icon: headphones
-- name: video
-  tag: video
-  icon: video-camera
+
+- name: SNS
+  tag: sns
+  icon: comments
+
+- name: Mail
+  tag: mail
+  icon: envelope
+
+- name: Patron
+  tag: patron
+  icon: comment-dollar

@@ -1,98 +1,126 @@
-- name: google
-  url: 'https://google.com'
-  img: logos/google.svg
+# Dev
+- name: GitHub
+  url: 'https://github.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/github'
   tags:
-    - favorite
-    - search
-- name: bing
-  url: 'https://bing.com'
-  img: logos/bing.svg
-  txt_color: '#ffffff'
-  bg_color: '#ffb900'
+    - dev
+
+- name: AWS
+  url: 'https://console.aws.amazon.com/console/home?region=ap-northeast-1'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/aws'
   tags:
-    - search
-- name: amazon
-  url: 'https://amazon.com'
-  img: logos/amazon.svg
-  bg_color: '#ffffff'
-  txt_color: '#ff9900'
+    - dev
+
+- name: GCP
+  url: 'https://console.cloud.google.com/home/dashboard'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/gcp'
   tags:
-    - favorite
-    - shopping
-- name: reddit
-  url: 'https://reddit.com'
-  img: logos/reddit.svg
-  bg_color: '#5f99cf'
-  txt_color: '#ffffff'
-- name: spotify
-  url: 'https://web.spotify.com'
-  img: logos/spotify.svg
-  bg_color: '#191414'
-  txt_color: '#1db954'
+    - dev
+
+- name: firebase
+  url: 'http://console.firebase.google.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/firebase'
   tags:
-    - favorite
-    - music
-- name: google music
-  url: 'https://play.google.com/music/listen'
-  img: logos/google-music.png
-  bg_color: '#ffffff'
-  txt_color: '#ff5722'
+    - dev
+
+# Book
+- name: なろう
+  url: 'https://syosetu.com/user/top/'
   tags:
-    - music
-- name: pandora
-  url: 'https://pandora.com'
-  img: logos/pandora.svg
-  bg_color: '#005483'
-  txt_color: '#ffffff'
+    - book
+
+# Image
+- name: Pixiv
+  url: 'https://www.pixiv.net/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/pixiv'
   tags:
-    - music
-- name: soundcloud
-  url: 'https://soundcloud.com'
-  img: logos/soundcloud.svg
-  bg_color: '#ffffff'
-  txt_color: '#ff3300'
+    - image
+
+- name: fanbox
+  url: 'https://www.pixiv.net/fanbox'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/pixivfanbox'
   tags:
-    - music
-- name: wikipedia
-  url: 'https://wikipedia.org'
-  img: logos/wikipedia.svg
-  bg_color: '#ffffff'
-  txt_color: '#000000'
-- name: ebay
-  url: 'https://ebay.com'
-  img: logos/ebay.svg
-  bg_color: '#ffffff'
-  txt_color: '#000000'
+    - image
+    - patron
+
+- name: cloudinary
+  url: 'https://cloudinary.com/console'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/cloudinary'
   tags:
-    - shopping
-- name: twitter
-  url: 'https://twitter.com'
-  img: logos/twitter.svg
-  bg_color: '#1da1f2'
-  txt_color: '#f5f8fa'
-- name: twitch
-  url: 'https://twitch.com'
-  img: logos/twitch.svg
-  bg_color: '#f1f1f1'
-  txt_color: '#6441a5'
-  tags:
-    - video
-- name: youtube
+    - dev
+    - image
+
+# Video
+- name: YouTube
   url: 'https://youtube.com'
-  img: logos/youtube.svg
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/youtube'
   bg_color: '#ffffff'
   txt_color: '#cd201f'
   tags:
     - video
-- name: netflix
-  url: 'https://netflix.com'
-  img: logos/netflix.svg
-  bg_color: '#221f1f'
-  txt_color: '#e50914'
-  tags:
-    - video
-- name: imgur
-  url: 'https://imgur.com'
-  img: logos/imgur.svg
+    - music
+
+# Music
+- name: SoundCloud
+  url: 'https://soundcloud.com'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/soundcloud'
   bg_color: '#ffffff'
-  txt_color: '#85bf25'
+  txt_color: '#ff3300'
+  tags:
+    - music
+
+# SNS
+- name: ふみ
+  url: 'https://syosetu.social/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/mastodon'
+  tags:
+    - sns
+    - book
+
+- name: pawoo
+  url: 'https://pawoo.net/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/pawoo'
+  tags:
+    - image
+    - sns
+
+- name: TweetDeck
+  url: 'https://tweetdeck.twitter.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/twitter'
+  bg_color: '#1da1f2'
+  txt_color: '#f5f8fa'
+  tags:
+    - sns
+
+# Mail
+- name: Gmail
+  url: 'https://gmail.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/gmail'
+  tags:
+    - mail
+
+- name: Tutanota
+  url: 'https://mail.tutanota.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/tutanota'
+  tags:
+    - mail
+
+# Patron
+- name: Fantia
+  url: 'https://fantia.jp/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/fantia'
+  tags:
+    - patron
+
+# etc
+- name: Qiita
+  url: 'https://qiita.com/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/qiita'
+  tags:
+    - dev
+
+- name: Scrapbox
+  url: 'https://scrapbox.io/'
+  img: 'https://res.cloudinary.com/dagsofv2s/image/upload/f_auto,q_auto:good/logo/scrapbox'
+  tags:
+    - dev

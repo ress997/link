@@ -4,8 +4,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
-title: "link.x39.dev"
-url: "https://link.x39.dev"
+title: "Speed Dial"
+url: "https://link.39.gy"
+icon: "https://res.cloudinary.com/dagsofv2s/image/upload/q_auto:good/logo.png"
 
 author:
   name: "ress"
