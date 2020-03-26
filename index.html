@@ -13,7 +13,7 @@ layout: compress
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/solid.css" integrity="sha384-ioUrHig76ITq4aEJ67dHzTvqjsAP/7IzgwE7lgJcg2r7BRNGYSK0LwSmROzYtgzs" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
-	<style>{% capture styles %}{% include "css/style.scss" %}{% endcapture %}{{ styles | scssify }}</style>
+	<style>{% capture styles %}{% include css/style.scss %}{% endcapture %}{{ styles | scssify }}</style>
 </head>
 <body>
 	<nav class="nav-panel">
@@ -36,6 +36,6 @@ layout: compress
 			{% endfor %}
 		</div>
 	</main>
-	<script>{% include "js/slate.js" %}</script>
+	<script>{% include js/slate.js %}</script>
 </body>
 </html>
